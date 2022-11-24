@@ -1,0 +1,644 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="../../../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-8.5.10" name="generator"/>
+<title>Skill - obsidian-mkdocs template</title>
+<link href="../../../assets/stylesheets/main.472b142f.min.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/palette.08040f6c.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="indigo" data-md-color-primary="pink" data-md-color-scheme="default" dir="ltr">
+<script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#depth">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="obsidian-mkdocs template" class="md-header__button md-logo" data-md-component="logo" href="../../.." title="obsidian-mkdocs template">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            obsidian-mkdocs template
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Skill
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="(prefers-color-scheme: light)" data-md-color-primary="pink" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="blue" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-primary="pink" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"></path></svg>
+</label>
+</form>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="obsidian-mkdocs template" class="md-nav__button md-logo" data-md-component="logo" href="../../.." title="obsidian-mkdocs template">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+    obsidian-mkdocs template
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../..">
+        Obsidian Notes
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2">
+          Designing Games
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Designing Games" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+          Designing Games
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../A%20Theory%20of%20Fun/">
+        A Theory of Fun
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Decisions/">
+        Decisions
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" id="__nav_2_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_3">
+          Elegance
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Elegance" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_3">
+<span class="md-nav__icon md-icon"></span>
+          Elegance
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Elegance/">
+        Mechanical Elegance
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Skill
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Skill
+      </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#depth">
+    Depth
+  </a>
+<nav aria-label="Depth" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#deep-games-create-meaningful-play-at-high-skill-levels">
+    Deep games create meaningful play at high skill levels
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#a-games-skill-ceiling-is-the-level-of-skill-beyond-which-there-is-no-way-to-improve-performance-if-this-skill-level-is-beyond-the-abilities-of-human-beings-the-game-is-limitlessly-deep-and-can-never-be-fully-solved-by-anyone">
+    A game's skill ceiling is the level of skill beyond which there is no way to improve performance. If this skill level is beyond the abilities of human beings, the game is limitlessly deep and can never be fully solved by anyone.
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#accessibility">
+    Accessibility
+  </a>
+<nav aria-label="Accessibility" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#accessible-games-create-meaningful-play-at-low-skill-levels-a-games-skill-barrier-is-the-lower-limit-of-skill-below-which-it-is-unplayable">
+    Accessible games create meaningful play at low skill levels. A game's skill barrier is the lower limit of skill below which it is unplayable.
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#skill-range">
+    Skill Range
+  </a>
+<nav aria-label="Skill Range" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#a-games-skill-range-is-the-range-of-skill-levels-at-which-a-game-presents-a-meaningful-challenge">
+    A game's skill range is the range of skill levels at which a game presents a meaningful challenge.
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reinvention">
+    Reinvention
+  </a>
+<nav aria-label="Reinvention" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#games-broaden-their-skill-range-by-repeatedly-reinventing-themselves-as-the-players-skill-increases">
+    Games broaden their skill range by repeatedly reinventing themselves as the player's skill increases.
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#games-tend-to-go-through-three-characteristic-reinventions-along-their-skill-range-the-manual-the-situational-and-the-mental">
+    Games tend to go through three characteristic reinventions along their skill range: the MANUAL, the SITUATIONAL, and the MENTAL.
+  </a>
+<nav aria-label="Games tend to go through three characteristic reinventions along their skill range: the MANUAL, the SITUATIONAL, and the MENTAL." class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#manual">
+    Manual
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#situational">
+    Situational
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mental">
+    Mental
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#elastic-challenges">
+    Elastic Challenges
+  </a>
+<nav aria-label="Elastic Challenges" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#elastic-challenges-permit-different-degrees-of-success-and-failure-to-provide-appropriate-challenges-to-players-across-a-wider-skill-gap">
+    Elastic Challenges permit different degrees of success and failure to provide appropriate challenges to players across a wider skill gap
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#just-as-we-can-present-different-degrees-of-success-we-can-present-different-degrees-of-failure">
+    Just as we can present different degrees of success, we can present different degrees of failure.
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#training">
+    Training
+  </a>
+<nav aria-label="Training" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#good-training-is-invisible">
+    Good training is invisible.
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#emotional-life-support-even-though-the-player-may-be-in-the-training-phase-or-in-the-tutorial-phase-they-will-still-struggle-with-skill-and-mechanic-checks-we-can-sustain-them-through-this-period-with-emotional-triggers-to-help-move-them-along">
+    Emotional life support. Even though the player may be in the training phase or in the tutorial phase, they will still struggle with skill and mechanic checks. We can sustain them through this period with emotional triggers to help move them along.
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#failure">
+    Failure
+  </a>
+<nav aria-label="Failure" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#dont-punish-the-player-for-failure-punish-the-player-character">
+    Don't punish the player for failure, punish the player character.
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" id="__nav_2_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_4">
+          Engines of Experience
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Engines of Experience" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_4">
+<span class="md-nav__icon md-icon"></span>
+          Engines of Experience
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Engines%20of%20Experience/Engines%20of%20Experience/">
+        Games are Engines of Experience
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Engines%20of%20Experience/Experiences/">
+        Experiences
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Engines%20of%20Experience/Flow/">
+        Flow
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Engines%20of%20Experience/Immersion/">
+        Immersion as an Experience
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Engines%20of%20Experience/Mechanics/">
+        Mechanics
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Engines%20of%20Experience/The%20Fiction%20Layer/">
+        [[Mechanics]] and Fiction
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" id="__nav_2_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_5">
+          Narrative
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Narrative" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_5">
+<span class="md-nav__icon md-icon"></span>
+          Narrative
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Narrative/Tynan%20on%20Narrative/">
+        Tynan on Narrative
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#depth">
+    Depth
+  </a>
+<nav aria-label="Depth" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#deep-games-create-meaningful-play-at-high-skill-levels">
+    Deep games create meaningful play at high skill levels
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#a-games-skill-ceiling-is-the-level-of-skill-beyond-which-there-is-no-way-to-improve-performance-if-this-skill-level-is-beyond-the-abilities-of-human-beings-the-game-is-limitlessly-deep-and-can-never-be-fully-solved-by-anyone">
+    A game's skill ceiling is the level of skill beyond which there is no way to improve performance. If this skill level is beyond the abilities of human beings, the game is limitlessly deep and can never be fully solved by anyone.
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#accessibility">
+    Accessibility
+  </a>
+<nav aria-label="Accessibility" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#accessible-games-create-meaningful-play-at-low-skill-levels-a-games-skill-barrier-is-the-lower-limit-of-skill-below-which-it-is-unplayable">
+    Accessible games create meaningful play at low skill levels. A game's skill barrier is the lower limit of skill below which it is unplayable.
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#skill-range">
+    Skill Range
+  </a>
+<nav aria-label="Skill Range" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#a-games-skill-range-is-the-range-of-skill-levels-at-which-a-game-presents-a-meaningful-challenge">
+    A game's skill range is the range of skill levels at which a game presents a meaningful challenge.
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#reinvention">
+    Reinvention
+  </a>
+<nav aria-label="Reinvention" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#games-broaden-their-skill-range-by-repeatedly-reinventing-themselves-as-the-players-skill-increases">
+    Games broaden their skill range by repeatedly reinventing themselves as the player's skill increases.
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#games-tend-to-go-through-three-characteristic-reinventions-along-their-skill-range-the-manual-the-situational-and-the-mental">
+    Games tend to go through three characteristic reinventions along their skill range: the MANUAL, the SITUATIONAL, and the MENTAL.
+  </a>
+<nav aria-label="Games tend to go through three characteristic reinventions along their skill range: the MANUAL, the SITUATIONAL, and the MENTAL." class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#manual">
+    Manual
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#situational">
+    Situational
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mental">
+    Mental
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#elastic-challenges">
+    Elastic Challenges
+  </a>
+<nav aria-label="Elastic Challenges" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#elastic-challenges-permit-different-degrees-of-success-and-failure-to-provide-appropriate-challenges-to-players-across-a-wider-skill-gap">
+    Elastic Challenges permit different degrees of success and failure to provide appropriate challenges to players across a wider skill gap
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#just-as-we-can-present-different-degrees-of-success-we-can-present-different-degrees-of-failure">
+    Just as we can present different degrees of success, we can present different degrees of failure.
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#training">
+    Training
+  </a>
+<nav aria-label="Training" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#good-training-is-invisible">
+    Good training is invisible.
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#emotional-life-support-even-though-the-player-may-be-in-the-training-phase-or-in-the-tutorial-phase-they-will-still-struggle-with-skill-and-mechanic-checks-we-can-sustain-them-through-this-period-with-emotional-triggers-to-help-move-them-along">
+    Emotional life support. Even though the player may be in the training phase or in the tutorial phase, they will still struggle with skill and mechanic checks. We can sustain them through this period with emotional triggers to help move them along.
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#failure">
+    Failure
+  </a>
+<nav aria-label="Failure" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#dont-punish-the-player-for-failure-punish-the-player-character">
+    Don't punish the player for failure, punish the player character.
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1>Skill</h1>
+<h3 id="depth">Depth<a class="headerlink" href="#depth" title="Permanent link">¶</a></h3>
+<h4 id="deep-games-create-meaningful-play-at-high-skill-levels">Deep games create meaningful play at high skill levels<a class="headerlink" href="#deep-games-create-meaningful-play-at-high-skill-levels" title="Permanent link">¶</a></h4>
+<p>The idea of depth describes how much there is to learn about a game. A deep game has enough nuance and variation to provide new lessons for a long time.</p>
+<p>Ironically, players will try their hardest to solve the game, and they will hate the designer if they succeed.</p>
+<h4 id="a-games-skill-ceiling-is-the-level-of-skill-beyond-which-there-is-no-way-to-improve-performance-if-this-skill-level-is-beyond-the-abilities-of-human-beings-the-game-is-limitlessly-deep-and-can-never-be-fully-solved-by-anyone">A game's skill ceiling is the level of skill beyond which there is no way to improve performance. If this skill level is beyond the abilities of human beings, the game is limitlessly deep and can never be fully solved by anyone.<a class="headerlink" href="#a-games-skill-ceiling-is-the-level-of-skill-beyond-which-there-is-no-way-to-improve-performance-if-this-skill-level-is-beyond-the-abilities-of-human-beings-the-game-is-limitlessly-deep-and-can-never-be-fully-solved-by-anyone" title="Permanent link">¶</a></h4>
+<h3 id="accessibility">Accessibility<a class="headerlink" href="#accessibility" title="Permanent link">¶</a></h3>
+<h4 id="accessible-games-create-meaningful-play-at-low-skill-levels-a-games-skill-barrier-is-the-lower-limit-of-skill-below-which-it-is-unplayable">Accessible games create meaningful play at low skill levels. A game's skill barrier is the lower limit of skill below which it is unplayable.<a class="headerlink" href="#accessible-games-create-meaningful-play-at-low-skill-levels-a-games-skill-barrier-is-the-lower-limit-of-skill-below-which-it-is-unplayable" title="Permanent link">¶</a></h4>
+<p>Designers often overlook accessibility because we're so proficient. We should not.</p>
+<h3 id="skill-range">Skill Range<a class="headerlink" href="#skill-range" title="Permanent link">¶</a></h3>
+<h4 id="a-games-skill-range-is-the-range-of-skill-levels-at-which-a-game-presents-a-meaningful-challenge">A game's skill range is the range of skill levels at which a game presents a meaningful challenge.<a class="headerlink" href="#a-games-skill-range-is-the-range-of-skill-levels-at-which-a-game-presents-a-meaningful-challenge" title="Permanent link">¶</a></h4>
+<p>This means that a game can be enjoyed by novices and experts alike.</p>
+<h3 id="reinvention">Reinvention<a class="headerlink" href="#reinvention" title="Permanent link">¶</a></h3>
+<p>Tynan talks a lot about how games with good skill ranges and elegant mechanics often reinvent themselves. His example is UT4.</p>
+<p>At first, it's aiming.
+Then, it's map knowledge.
+Then, it's tracking and weapon knowledge.
+Finally, it's psychological. Once the mechanics are learned, the other skillsets mastered, it becomes a psychological game about outplaying your opponent who is, we hope, of equal skill level.</p>
+<h4 id="games-broaden-their-skill-range-by-repeatedly-reinventing-themselves-as-the-players-skill-increases">Games broaden their skill range by repeatedly reinventing themselves as the player's skill increases.<a class="headerlink" href="#games-broaden-their-skill-range-by-repeatedly-reinventing-themselves-as-the-players-skill-increases" title="Permanent link">¶</a></h4>
+<h4 id="games-tend-to-go-through-three-characteristic-reinventions-along-their-skill-range-the-manual-the-situational-and-the-mental">Games tend to go through three characteristic reinventions along their skill range: the MANUAL, the SITUATIONAL, and the MENTAL.<a class="headerlink" href="#games-tend-to-go-through-three-characteristic-reinventions-along-their-skill-range-the-manual-the-situational-and-the-mental" title="Permanent link">¶</a></h4>
+<h5 id="manual">Manual<a class="headerlink" href="#manual" title="Permanent link">¶</a></h5>
+<p>This is about simple, moment to moment mechanical skills. In a shooter, it's drawing a bead on a target.
+In tetris, its about getting pieces to fall where you want them.</p>
+<h5 id="situational">Situational<a class="headerlink" href="#situational" title="Permanent link">¶</a></h5>
+<p>The situational reinvention is the second level. This is where manual skills are mostly unconscious. In a fighting game, a player can execute multibutton combo-strikes at will.</p>
+<p>This is the level where most players are, and where most games are designed to function. It comprises situational awareness, reading patterns, knowing counterstrategies, and many other midlevel game skills. </p>
+<p>This is probably the broadest level.</p>
+<h5 id="mental">Mental<a class="headerlink" href="#mental" title="Permanent link">¶</a></h5>
+<p>The mental level is often not reached. Mental skills are all about maintaining concentration and performance. </p>
+<h3 id="elastic-challenges">Elastic Challenges<a class="headerlink" href="#elastic-challenges" title="Permanent link">¶</a></h3>
+<p>Start with a thought experiment. What if darts was only the bullseye? It wouldn't matter what size the bullseye was, it would either be too easy or too hard for some players, maybe most players.</p>
+<p>Darts solves this by having concentric rings and other areas that provide a score. This allows players of lower skill to enjoy the game and still have some level of success. This is an <strong>elastic challenge</strong>.</p>
+<h4 id="elastic-challenges-permit-different-degrees-of-success-and-failure-to-provide-appropriate-challenges-to-players-across-a-wider-skill-gap">Elastic Challenges permit different degrees of success and failure to provide appropriate challenges to players across a wider skill gap<a class="headerlink" href="#elastic-challenges-permit-different-degrees-of-success-and-failure-to-provide-appropriate-challenges-to-players-across-a-wider-skill-gap" title="Permanent link">¶</a></h4>
+<p>this is important to remember. As important:</p>
+<h4 id="just-as-we-can-present-different-degrees-of-success-we-can-present-different-degrees-of-failure">Just as we can present different degrees of success, we can present different degrees of failure.<a class="headerlink" href="#just-as-we-can-present-different-degrees-of-success-we-can-present-different-degrees-of-failure" title="Permanent link">¶</a></h4>
+<h3 id="training">Training<a class="headerlink" href="#training" title="Permanent link">¶</a></h3>
+<h4 id="good-training-is-invisible">Good training is invisible.<a class="headerlink" href="#good-training-is-invisible" title="Permanent link">¶</a></h4>
+<p>Tynan calls out the CoD4 training sequence as a great example. Let's break it down here as a case study.</p>
+<p>It is a tutorial sequence with a fiction layer of a training course. It works narratively AND tutorially. </p>
+<p>However, there's more. Within this training sequence, there are elastic challenges that help the game decide what difficulty you belong on. The training course is also a <em>time trial</em>, and the faster you complete it with a better score, the harder the game can be for you.</p>
+<p>It succeeds on multiple levels from a design pov.</p>
+<h4 id="emotional-life-support-even-though-the-player-may-be-in-the-training-phase-or-in-the-tutorial-phase-they-will-still-struggle-with-skill-and-mechanic-checks-we-can-sustain-them-through-this-period-with-emotional-triggers-to-help-move-them-along">Emotional life support. Even though the player may be in the training phase or in the tutorial phase, they will still struggle with skill and mechanic checks. We can sustain them through this period with emotional triggers to help move them along.<a class="headerlink" href="#emotional-life-support-even-though-the-player-may-be-in-the-training-phase-or-in-the-tutorial-phase-they-will-still-struggle-with-skill-and-mechanic-checks-we-can-sustain-them-through-this-period-with-emotional-triggers-to-help-move-them-along" title="Permanent link">¶</a></h4>
+<p>These triggers could be cool characters, cinematics, joking with friends in multiplayer.</p>
+<h3 id="failure">Failure<a class="headerlink" href="#failure" title="Permanent link">¶</a></h3>
+<p>Tynan has a lot of words about failure here, but it can really be summarized as:</p>
+<h4 id="dont-punish-the-player-for-failure-punish-the-player-character">Don't punish the player for failure, punish the player character.<a class="headerlink" href="#dont-punish-the-player-for-failure-punish-the-player-character" title="Permanent link">¶</a></h4>
+<p>He cites having the player have to redo load screens, rekill enemies, grind for resources. All of these things he casts as bad. Obviously, there's nuance here and we're getting an opinionated take. </p>
+<p>he also says beware the failure trap, where regardless of what the player does, they will fail.</p>
+<p>Seems obvious.</p>
+</article>
+</div>
+</div>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: Mechanical Elegance" class="md-footer__link md-footer__link--prev" href="../Elegance/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Previous
+              </span>
+              Mechanical Elegance
+            </div>
+</div>
+</a>
+<a aria-label="Next: Games are Engines of Experience" class="md-footer__link md-footer__link--next" href="../../Engines%20of%20Experience/Engines%20of%20Experience/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Next
+              </span>
+              Games are Engines of Experience
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+<script src="../../../assets/javascripts/bundle.d6c3db9e.min.js"></script>
+<script src="../../../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</body>
+</html>

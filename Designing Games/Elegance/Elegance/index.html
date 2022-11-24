@@ -1,0 +1,494 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="../../../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.4.2, mkdocs-material-8.5.10" name="generator"/>
+<title>Mechanical Elegance - obsidian-mkdocs template</title>
+<link href="../../../assets/stylesheets/main.472b142f.min.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/palette.08040f6c.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+</head>
+<body data-md-color-accent="indigo" data-md-color-primary="pink" data-md-color-scheme="default" dir="ltr">
+<script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#mechanical-elegance">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="obsidian-mkdocs template" class="md-header__button md-logo" data-md-component="logo" href="../../.." title="obsidian-mkdocs template">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            obsidian-mkdocs template
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              Mechanical Elegance
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="(prefers-color-scheme: light)" data-md-color-primary="pink" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="blue" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-primary="pink" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"></path></svg>
+</label>
+</form>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="Search" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="Search" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="Search" class="md-search__options">
+<button aria-label="Clear" class="md-search__icon md-icon" tabindex="-1" title="Clear" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            Initializing search
+          </div>
+<ol class="md-search-result__list"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="obsidian-mkdocs template" class="md-nav__button md-logo" data-md-component="logo" href="../../.." title="obsidian-mkdocs template">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+    obsidian-mkdocs template
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../..">
+        Obsidian Notes
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2">
+          Designing Games
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Designing Games" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_2">
+<span class="md-nav__icon md-icon"></span>
+          Designing Games
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../A%20Theory%20of%20Fun/">
+        A Theory of Fun
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Decisions/">
+        Decisions
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" id="__nav_2_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_3">
+          Elegance
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Elegance" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_3">
+<span class="md-nav__icon md-icon"></span>
+          Elegance
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<label class="md-nav__link md-nav__link--active" for="__toc">
+          Mechanical Elegance
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+        Mechanical Elegance
+      </a>
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#emergence-is-when-simple-mechanics-interact-to-create-complex-solutions">
+    Emergence is when simple mechanics interact to create complex solutions
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#leveraging-emergence-means-crafting-mechanics-that-dont-just-add-together-but-multiple-into-a-rich-universe-of-possibility">
+    Leveraging emergence means crafting mechanics that don't just add together, but multiple into a rich universe of possibility
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#elegance-happens-when-mechanics-interact-in-complex-nonobvious-ways-but-this-same-complexity-and-nonobviousness-makes-elegant-design-very-difficult-to-achieve">
+    Elegance happens when mechanics interact in complex, nonobvious ways. But this same complexity and nonobviousness makes elegant design very difficult to achieve
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#elegance-is-hard-to-test-designers-have-to-intuit-elegant-mechanics">
+    Elegance is hard to test. Designers have to intuit elegant mechanics
+  </a>
+<nav aria-label="Elegance is hard to test. Designers have to intuit elegant mechanics" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mechanics-that-interact-with-a-lot-of-other-mechanics-smell-like-elegance">
+    Mechanics that interact with a lot of other mechanics smell like elegance
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#simple-mechanics-smell-like-elegance">
+    Simple Mechanics smell like elegance.
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mechanics-that-can-be-used-in-multiple-ways-smell-like-elegance">
+    Mechanics that can be used in multiple ways smell like elegance.
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mechanics-that-dont-overlap-in-their-roles-are-also-elegant">
+    Mechanics that don't overlap in their roles are also elegant.
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mechanics-that-reuse-estabilished-conventions-and-interfaces-smell-like-elegance-because-they-leverage-knowledge-that-players-already-have">
+    Mechanics that reuse estabilished conventions and interfaces smell like elegance because they leverage knowledge that players already have.
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mechanics-that-work-on-a-similar-scale-to-other-mechanics-smells-like-elegance">
+    Mechanics that work on a similar scale to other mechanics smells like elegance.
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mechanics-that-are-reused-a-lot-smell-like-elegance">
+    Mechanics that are reused a lot smell like elegance
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mechanics-that-dont-impose-restrictions-on-content-smell-like-elegance">
+    Mechanics that don't impose restrictions on content smell like elegance.
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mechanics-that-use-the-full-expressiveness-of-the-available-interface-smell-like-elegance">
+    Mechanics that use the full expressiveness of the available interface smell like elegance.
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../Skill/">
+        Skill
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" id="__nav_2_4" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_4">
+          Engines of Experience
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Engines of Experience" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_4">
+<span class="md-nav__icon md-icon"></span>
+          Engines of Experience
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Engines%20of%20Experience/Engines%20of%20Experience/">
+        Games are Engines of Experience
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Engines%20of%20Experience/Experiences/">
+        Experiences
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Engines%20of%20Experience/Flow/">
+        Flow
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Engines%20of%20Experience/Immersion/">
+        Immersion as an Experience
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Engines%20of%20Experience/Mechanics/">
+        Mechanics
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Engines%20of%20Experience/The%20Fiction%20Layer/">
+        [[Mechanics]] and Fiction
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" id="__nav_2_5" type="checkbox"/>
+<label class="md-nav__link" for="__nav_2_5">
+          Narrative
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Narrative" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_2_5">
+<span class="md-nav__icon md-icon"></span>
+          Narrative
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Narrative/Tynan%20on%20Narrative/">
+        Tynan on Narrative
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#emergence-is-when-simple-mechanics-interact-to-create-complex-solutions">
+    Emergence is when simple mechanics interact to create complex solutions
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#leveraging-emergence-means-crafting-mechanics-that-dont-just-add-together-but-multiple-into-a-rich-universe-of-possibility">
+    Leveraging emergence means crafting mechanics that don't just add together, but multiple into a rich universe of possibility
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#elegance-happens-when-mechanics-interact-in-complex-nonobvious-ways-but-this-same-complexity-and-nonobviousness-makes-elegant-design-very-difficult-to-achieve">
+    Elegance happens when mechanics interact in complex, nonobvious ways. But this same complexity and nonobviousness makes elegant design very difficult to achieve
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#elegance-is-hard-to-test-designers-have-to-intuit-elegant-mechanics">
+    Elegance is hard to test. Designers have to intuit elegant mechanics
+  </a>
+<nav aria-label="Elegance is hard to test. Designers have to intuit elegant mechanics" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mechanics-that-interact-with-a-lot-of-other-mechanics-smell-like-elegance">
+    Mechanics that interact with a lot of other mechanics smell like elegance
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#simple-mechanics-smell-like-elegance">
+    Simple Mechanics smell like elegance.
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mechanics-that-can-be-used-in-multiple-ways-smell-like-elegance">
+    Mechanics that can be used in multiple ways smell like elegance.
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mechanics-that-dont-overlap-in-their-roles-are-also-elegant">
+    Mechanics that don't overlap in their roles are also elegant.
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mechanics-that-reuse-estabilished-conventions-and-interfaces-smell-like-elegance-because-they-leverage-knowledge-that-players-already-have">
+    Mechanics that reuse estabilished conventions and interfaces smell like elegance because they leverage knowledge that players already have.
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mechanics-that-work-on-a-similar-scale-to-other-mechanics-smells-like-elegance">
+    Mechanics that work on a similar scale to other mechanics smells like elegance.
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mechanics-that-are-reused-a-lot-smell-like-elegance">
+    Mechanics that are reused a lot smell like elegance
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mechanics-that-dont-impose-restrictions-on-content-smell-like-elegance">
+    Mechanics that don't impose restrictions on content smell like elegance.
+  </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#mechanics-that-use-the-full-expressiveness-of-the-available-interface-smell-like-elegance">
+    Mechanics that use the full expressiveness of the available interface smell like elegance.
+  </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="mechanical-elegance">Mechanical Elegance<a class="headerlink" href="#mechanical-elegance" title="Permanent link">¶</a></h1>
+<p>Elegance in games stems from emergence. 
+Tynan cites the game of checkers. It has countless variations: long struggles, quick jabs. All of this is possible from a few minutes of rules explaining before the first game.</p>
+<p>It's worth reading <a href="../../Engines%20of%20Experience/Mechanics/">Mechanics</a> or <a href="../../Engines%20of%20Experience/Engines%20of%20Experience/">Engines of Experience</a> before going forward.</p>
+<h4 id="emergence-is-when-simple-mechanics-interact-to-create-complex-solutions">Emergence is when simple mechanics interact to create complex solutions<a class="headerlink" href="#emergence-is-when-simple-mechanics-interact-to-create-complex-solutions" title="Permanent link">¶</a></h4>
+<h4 id="leveraging-emergence-means-crafting-mechanics-that-dont-just-add-together-but-multiple-into-a-rich-universe-of-possibility">Leveraging emergence means crafting mechanics that don't just add together, but multiple into a rich universe of possibility<a class="headerlink" href="#leveraging-emergence-means-crafting-mechanics-that-dont-just-add-together-but-multiple-into-a-rich-universe-of-possibility" title="Permanent link">¶</a></h4>
+<h4 id="elegance-happens-when-mechanics-interact-in-complex-nonobvious-ways-but-this-same-complexity-and-nonobviousness-makes-elegant-design-very-difficult-to-achieve">Elegance happens when mechanics interact in complex, nonobvious ways. But this same complexity and nonobviousness makes elegant design very difficult to achieve<a class="headerlink" href="#elegance-happens-when-mechanics-interact-in-complex-nonobvious-ways-but-this-same-complexity-and-nonobviousness-makes-elegant-design-very-difficult-to-achieve" title="Permanent link">¶</a></h4>
+<p>We want to make more play experiences while limiting the knowledge burden on the player. Can we leverage more experience out of already existing mechanics?</p>
+<h2 id="elegance-is-hard-to-test-designers-have-to-intuit-elegant-mechanics">Elegance is hard to test. Designers have to intuit elegant mechanics<a class="headerlink" href="#elegance-is-hard-to-test-designers-have-to-intuit-elegant-mechanics" title="Permanent link">¶</a></h2>
+<p>Tynan brings up invertible matrices and how the only way to know is to actually perform the inversion. However this is time consuming. You can, with experience, "smell" invertible matrices. We must do the same for elegant design</p>
+<p>Below are some of the smells.</p>
+<h4 id="mechanics-that-interact-with-a-lot-of-other-mechanics-smell-like-elegance">Mechanics that interact with a lot of other mechanics smell like elegance<a class="headerlink" href="#mechanics-that-interact-with-a-lot-of-other-mechanics-smell-like-elegance" title="Permanent link">¶</a></h4>
+<p>Do a quick count of the number of interactions of the proposed mechanic.</p>
+<h4 id="simple-mechanics-smell-like-elegance">Simple Mechanics smell like elegance.<a class="headerlink" href="#simple-mechanics-smell-like-elegance" title="Permanent link">¶</a></h4>
+<p>This really talks about overburdening player knowledge. If we can write the mechanic on a cocktail napkin, it smells like elegance. We want to make sure there's not an excessive burden to learning.</p>
+<h4 id="mechanics-that-can-be-used-in-multiple-ways-smell-like-elegance">Mechanics that can be used in multiple ways smell like elegance.<a class="headerlink" href="#mechanics-that-can-be-used-in-multiple-ways-smell-like-elegance" title="Permanent link">¶</a></h4>
+<p>A tool that can be used creatively, offensively, defensively, tactically, and strategically is more elegant than one that fills a single role.</p>
+<p>Resident Evil is a good example. Guns are both offensive and defensive and offer compelling tradeoffs. If you shoot to slow, you aren't killing, but if you shoot to kill, you risk more zombies coming and getting you.</p>
+<h4 id="mechanics-that-dont-overlap-in-their-roles-are-also-elegant">Mechanics that don't overlap in their roles are also elegant.<a class="headerlink" href="#mechanics-that-dont-overlap-in-their-roles-are-also-elegant" title="Permanent link">¶</a></h4>
+<p>The most elegant mechanics are so distinct in their role that they open up completely new kinds of play. Don't create variations on existing interactions. Instead, seek mechanics that introduce new strategies and avenues of exploration that didn't exist in any form before.</p>
+<h4 id="mechanics-that-reuse-estabilished-conventions-and-interfaces-smell-like-elegance-because-they-leverage-knowledge-that-players-already-have">Mechanics that reuse estabilished conventions and interfaces smell like elegance because they leverage knowledge that players already have.<a class="headerlink" href="#mechanics-that-reuse-estabilished-conventions-and-interfaces-smell-like-elegance-because-they-leverage-knowledge-that-players-already-have" title="Permanent link">¶</a></h4>
+<h4 id="mechanics-that-work-on-a-similar-scale-to-other-mechanics-smells-like-elegance">Mechanics that work on a similar scale to other mechanics smells like elegance.<a class="headerlink" href="#mechanics-that-work-on-a-similar-scale-to-other-mechanics-smells-like-elegance" title="Permanent link">¶</a></h4>
+<p>This is tricky. His example is a game where you play as a first person shooter, then in other sections you're in a jet. </p>
+<p>The jet sequences make all other mechanics in the game kind of meaningless. What does it matter if an enemy on foot can move left or right if you have a 1000 pound bomb in a jet?</p>
+<p>That said, there are some counterexamples in modern gaming that aren't noted. Nier: Automata is one. </p>
+<h4 id="mechanics-that-are-reused-a-lot-smell-like-elegance">Mechanics that are reused a lot smell like elegance<a class="headerlink" href="#mechanics-that-are-reused-a-lot-smell-like-elegance" title="Permanent link">¶</a></h4>
+<p>Tynan says repetition of mechanics is essential to elegant design. A mechanic that's used once is a gimmick. There's a one to one relationship between cost and payoff. </p>
+<p>A mechanic that's used 100,000 times can potentially be very elegant, if it can generate new experiences every time.</p>
+<h4 id="mechanics-that-dont-impose-restrictions-on-content-smell-like-elegance">Mechanics that don't impose restrictions on content smell like elegance.<a class="headerlink" href="#mechanics-that-dont-impose-restrictions-on-content-smell-like-elegance" title="Permanent link">¶</a></h4>
+<p>This is tricky since the problem is endemic. Tynan makes this case:</p>
+<p>A detective game that has a chase sequence. The chase sequence doesn't test well. Designers put rocket boots on him and he can now jump 20 feet. Chase feels better, win win.</p>
+<p>However, this now makes the rest of the game's content have to conform to that mechanic. And it makes the game nonsensical. </p>
+<p>You want mechanics that will work well for the problem at hand without hurting the rest of the game's content.</p>
+<h4 id="mechanics-that-use-the-full-expressiveness-of-the-available-interface-smell-like-elegance">Mechanics that use the full expressiveness of the available interface smell like elegance.<a class="headerlink" href="#mechanics-that-use-the-full-expressiveness-of-the-available-interface-smell-like-elegance" title="Permanent link">¶</a></h4>
+<p>We can measure angles of joysticks, angles of depression on triggers. We should leverage that.</p>
+</article>
+</div>
+</div>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: Decisions" class="md-footer__link md-footer__link--prev" href="../../Decisions/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Previous
+              </span>
+              Decisions
+            </div>
+</div>
+</a>
+<a aria-label="Next: Skill" class="md-footer__link md-footer__link--next" href="../Skill/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Next
+              </span>
+              Skill
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" rel="noopener" target="_blank">
+      Material for MkDocs
+    </a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+<script src="../../../assets/javascripts/bundle.d6c3db9e.min.js"></script>
+<script src="../../../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://unpkg.com/mermaid/dist/mermaid.min.js"></script>
+</body>
+</html>
